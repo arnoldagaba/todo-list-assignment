@@ -63,3 +63,24 @@ li {
     text-decoration: line-through;
     color: gray;
 }
+
+#search-task {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#search-task:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+#search-task::placeholder {
+    color: #888;
+    font-style: italic;
+}
